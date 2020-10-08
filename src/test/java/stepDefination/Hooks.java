@@ -15,6 +15,13 @@ public class Hooks extends Base {
 	@After("@SmokeTest")
 		public void aftervalidation() {
 		System.out.println("New Change");
+		System.out.println("Tonmoy");
+		System.out.println("Tonmoy");
+		System.out.println("Tonmoy");
+		System.out.println("Tonmoy");
+		System.out.println("Tonmoy");
+		System.out.println("Tonmoy");
+		
 		driver.close();
 		
 		
