@@ -9,10 +9,12 @@ public class Hooks extends Base {
 	@Before("@SmokeTest")
 	public void beforevalidation() {
 		System.out.println("Mobile before Hook");
+		System.out.println("New change");
 		
 	} 
 	@After("@SmokeTest")
 		public void aftervalidation() {
+		System.out.println("New Change");
 		driver.close();
 		
 		
